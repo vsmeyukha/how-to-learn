@@ -11,14 +11,9 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-* {
-  margin: 0;
-}
-
-
-div, header, main, section, footer, h1, h2, h3, h4, h5, h6, p, nav, ul, ol, a, li, img {
+/* div, header, main, section, footer, h1, h2, h3, h4, h5, h6, p, nav, ul, ol, a, li, img {
   border: 1px solid red;
-}
+} */
 
 /* !То, что сверху, убрать, когда закончу проект */
 
@@ -144,6 +139,7 @@ div, header, main, section, footer, h1, h2, h3, h4, h5, h6, p, nav, ul, ol, a, l
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -171,9 +167,7 @@ div, header, main, section, footer, h1, h2, h3, h4, h5, h6, p, nav, ul, ol, a, l
   list-style: none;
 }
 
-/* ! РАЗОБРАТЬСЯ, ПОЧЕМУ НЕ РАБОТАЕТ ОТСТУП ДЛЯ table cell, А ДЛЯ table heading РАБОТАЕТ */
-
-.table-cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
@@ -259,13 +253,9 @@ div, header, main, section, footer, h1, h2, h3, h4, h5, h6, p, nav, ul, ol, a, l
 
 .section-subtitle_theme_dark {
   color: white;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .table_theme_dark {
-  display: flex;
   /*margin-bottom: 90px;*/
   z-index: 5;
 }
@@ -278,17 +268,12 @@ div, header, main, section, footer, h1, h2, h3, h4, h5, h6, p, nav, ul, ol, a, l
 }
 
 .table__heading_theme_dark {
-  line-height: 1.15;
   font-size: 24px;
-  font-weight: bold;
   margin-top: 0;
   width: 200px;
 }
 
 .table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
   width: 200px;
 }
 
