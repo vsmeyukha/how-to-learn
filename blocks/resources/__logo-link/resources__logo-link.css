@@ -1,0 +1,14 @@
+.resources__logo-link {
+  width: inherit;
+  height: inherit;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .4s .2s;
+}
+
+.resources__logo-link:hover {
+  opacity: .7;
+}
