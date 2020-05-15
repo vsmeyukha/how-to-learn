@@ -4,7 +4,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  background-image: url(/images/header-image.png);
+  background-image: url(../../../images/header-image.png);
   background-size: cover;
   z-index: 5;
 }
